@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19206" systemVersion="20G165" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Kategori" representedClassName="Kategori" syncable="YES" codeGenerationType="class">
+        <attribute name="batas_min" optional="YES" attributeType="Integer 64" defaultValueString="50000" usesScalarValueType="YES"/>
+        <attribute name="id_kategori" optional="YES" attributeType="String"/>
+        <attribute name="nama_kategori" optional="YES" attributeType="String"/>
+        <attribute name="persentase" optional="YES" attributeType="Integer 64" defaultValueString="25" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Pemasukan" representedClassName="Pemasukan" syncable="YES" codeGenerationType="class">
+        <attribute name="deskripsi" optional="YES" attributeType="String"/>
+        <attribute name="id_kategori" optional="YES" attributeType="String"/>
+        <attribute name="id_pemasukan" optional="YES" attributeType="String"/>
+        <attribute name="jumlah" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="tanggal" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Pengeluaran" representedClassName="Pengeluaran" syncable="YES" codeGenerationType="class">
+        <attribute name="deskripsi" optional="YES" attributeType="String"/>
+        <attribute name="id_kategori" optional="YES" attributeType="String"/>
+        <attribute name="id_pengeluaran" optional="YES" attributeType="String"/>
+        <attribute name="jumlah" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="tanggal" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="Kategori" positionX="-27" positionY="81" width="128" height="89"/>
+        <element name="Pemasukan" positionX="-45" positionY="63" width="128" height="104"/>
+        <element name="Pengeluaran" positionX="-36" positionY="72" width="128" height="104"/>
+    </elements>
+</model>

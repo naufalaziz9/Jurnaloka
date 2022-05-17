@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A219797277AA70800E0E387 /* JurnalokaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A219796277AA70800E0E387 /* JurnalokaApp.swift */; };
+		2A21979B277AA70A00E0E387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A21979A277AA70A00E0E387 /* Assets.xcassets */; };
+		2A21979E277AA70A00E0E387 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A21979D277AA70A00E0E387 /* Preview Assets.xcassets */; };
+		2A33408F27B006E900B4A664 /* KategoriPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A33408E27B006E900B4A664 /* KategoriPage.swift */; };
+		2A33409627B012D900B4A664 /* UbahPemasukan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A33409527B012D900B4A664 /* UbahPemasukan.swift */; };
+		2A33409A27B012FE00B4A664 /* UbahPengeluaran.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A33409927B012FE00B4A664 /* UbahPengeluaran.swift */; };
+		2A3340A227B0136E00B4A664 /* UbahKategori.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3340A127B0136E00B4A664 /* UbahKategori.swift */; };
+		2A336C632789D4FB0063356A /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A336C622789D4FB0063356A /* TabBar.swift */; };
+		2A391951281E1B4300FCFD78 /* LaporanPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A391950281E1B4300FCFD78 /* LaporanPage.swift */; };
+		2A391954281E1D7900FCFD78 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 2A391953281E1D7900FCFD78 /* SwiftUICharts */; };
+		2A5A24F828198DBF0002E098 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5A24F728198DBF0002E098 /* OnboardingPage.swift */; };
+		2A9973B0280D541C00D957A8 /* TambahKategori.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9973AF280D541C00D957A8 /* TambahKategori.swift */; };
+		2AA2E4F027ABBC510055FB64 /* AktivitasPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA2E4EF27ABBC510055FB64 /* AktivitasPage.swift */; };
+		2AC465D72816E4180093F63A /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC465D62816E4180093F63A /* UserNotifications.framework */; };
+		2AC465D92816E4180093F63A /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC465D82816E4180093F63A /* UserNotificationsUI.framework */; };
+		2AC465DC2816E4180093F63A /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC465DB2816E4180093F63A /* NotificationViewController.swift */; };
+		2AC465DF2816E4180093F63A /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AC465DD2816E4180093F63A /* MainInterface.storyboard */; };
+		2AC465E32816E4180093F63A /* JurnalokaNotification.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2AC465D42816E4180093F63A /* JurnalokaNotification.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2AC83A6F277DA91500822147 /* Jurnaloka.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AC83A6D277DA91500822147 /* Jurnaloka.xcdatamodeld */; };
+		2ADFF2102785A47C00F320A4 /* CDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADFF20F2785A47C00F320A4 /* CDManager.swift */; };
+		2AE36C3727E7384200AD8F27 /* TambahData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE36C3627E7384200AD8F27 /* TambahData.swift */; };
+		2AE36C3927E7439800AD8F27 /* TambahPemasukan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE36C3827E7439800AD8F27 /* TambahPemasukan.swift */; };
+		2AE36C3B27E74DD000AD8F27 /* TambahPengeluaran.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE36C3A27E74DD000AD8F27 /* TambahPengeluaran.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AC465E12816E4180093F63A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A21978B277AA70800E0E387 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AC465D32816E4180093F63A;
+			remoteInfo = WallsmartNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2AC465E42816E4180093F63A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2AC465E32816E4180093F63A /* JurnalokaNotification.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2A219793277AA70800E0E387 /* Jurnaloka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jurnaloka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A219796277AA70800E0E387 /* JurnalokaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JurnalokaApp.swift; sourceTree = "<group>"; };
+		2A21979A277AA70A00E0E387 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A21979D277AA70A00E0E387 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A24797E28182F7E0038955B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2A33408E27B006E900B4A664 /* KategoriPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KategoriPage.swift; sourceTree = "<group>"; };
+		2A33409527B012D900B4A664 /* UbahPemasukan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UbahPemasukan.swift; sourceTree = "<group>"; };
+		2A33409927B012FE00B4A664 /* UbahPengeluaran.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UbahPengeluaran.swift; sourceTree = "<group>"; };
+		2A3340A127B0136E00B4A664 /* UbahKategori.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UbahKategori.swift; sourceTree = "<group>"; };
+		2A336C622789D4FB0063356A /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		2A391950281E1B4300FCFD78 /* LaporanPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaporanPage.swift; sourceTree = "<group>"; };
+		2A5A24F728198DBF0002E098 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		2A9973AF280D541C00D957A8 /* TambahKategori.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TambahKategori.swift; sourceTree = "<group>"; };
+		2AA2E4EF27ABBC510055FB64 /* AktivitasPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AktivitasPage.swift; sourceTree = "<group>"; };
+		2AC465D42816E4180093F63A /* JurnalokaNotification.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = JurnalokaNotification.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC465D62816E4180093F63A /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		2AC465D82816E4180093F63A /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		2AC465DB2816E4180093F63A /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		2AC465DE2816E4180093F63A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		2AC465E02816E4180093F63A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AC83A6E277DA91500822147 /* Wallsmart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wallsmart.xcdatamodel; sourceTree = "<group>"; };
+		2ADFF20F2785A47C00F320A4 /* CDManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDManager.swift; sourceTree = "<group>"; };
+		2AE36C3627E7384200AD8F27 /* TambahData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TambahData.swift; sourceTree = "<group>"; };
+		2AE36C3827E7439800AD8F27 /* TambahPemasukan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TambahPemasukan.swift; sourceTree = "<group>"; };
+		2AE36C3A27E74DD000AD8F27 /* TambahPengeluaran.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TambahPengeluaran.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A219790277AA70800E0E387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A391954281E1D7900FCFD78 /* SwiftUICharts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC465D12816E4180093F63A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC465D92816E4180093F63A /* UserNotificationsUI.framework in Frameworks */,
+				2AC465D72816E4180093F63A /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A21978A277AA70800E0E387 = {
+			isa = PBXGroup;
+			children = (
+				2A219795277AA70800E0E387 /* Jurnaloka */,
+				2AC465DA2816E4180093F63A /* JurnalokaNotification */,
+				2AC465D52816E4180093F63A /* Frameworks */,
+				2A219794277AA70800E0E387 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A219794277AA70800E0E387 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A219793277AA70800E0E387 /* Jurnaloka.app */,
+				2AC465D42816E4180093F63A /* JurnalokaNotification.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A219795277AA70800E0E387 /* Jurnaloka */ = {
+			isa = PBXGroup;
+			children = (
+				2A24797E28182F7E0038955B /* Info.plist */,
+				2A219796277AA70800E0E387 /* JurnalokaApp.swift */,
+				2A336C622789D4FB0063356A /* TabBar.swift */,
+				2A5A24F728198DBF0002E098 /* OnboardingPage.swift */,
+				2A391950281E1B4300FCFD78 /* LaporanPage.swift */,
+				2ADFF20E2785A46200F320A4 /* Managers */,
+				2A33409D27B0134800B4A664 /* Kategori */,
+				2A33409427B010A800B4A664 /* Aktivitas */,
+				2AC83A6D277DA91500822147 /* Jurnaloka.xcdatamodeld */,
+				2A21979A277AA70A00E0E387 /* Assets.xcassets */,
+				2A21979C277AA70A00E0E387 /* Preview Content */,
+			);
+			path = Jurnaloka;
+			sourceTree = "<group>";
+		};
+		2A21979C277AA70A00E0E387 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2A21979D277AA70A00E0E387 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2A33409427B010A800B4A664 /* Aktivitas */ = {
+			isa = PBXGroup;
+			children = (
+				2AA2E4EF27ABBC510055FB64 /* AktivitasPage.swift */,
+				2A33409927B012FE00B4A664 /* UbahPengeluaran.swift */,
+				2A33409527B012D900B4A664 /* UbahPemasukan.swift */,
+			);
+			path = Aktivitas;
+			sourceTree = "<group>";
+		};
+		2A33409D27B0134800B4A664 /* Kategori */ = {
+			isa = PBXGroup;
+			children = (
+				2A33408E27B006E900B4A664 /* KategoriPage.swift */,
+				2A3340A127B0136E00B4A664 /* UbahKategori.swift */,
+			);
+			path = Kategori;
+			sourceTree = "<group>";
+		};
+		2A336C5F2789CD2C0063356A /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+		2AC465D52816E4180093F63A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2AC465D62816E4180093F63A /* UserNotifications.framework */,
+				2AC465D82816E4180093F63A /* UserNotificationsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AC465DA2816E4180093F63A /* JurnalokaNotification */ = {
+			isa = PBXGroup;
+			children = (
+				2AC465DB2816E4180093F63A /* NotificationViewController.swift */,
+				2AC465DD2816E4180093F63A /* MainInterface.storyboard */,
+				2AC465E02816E4180093F63A /* Info.plist */,
+			);
+			path = JurnalokaNotification;
+			sourceTree = "<group>";
+		};
+		2ADFF20E2785A46200F320A4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				2AE36C3527E7382C00AD8F27 /* Tambah */,
+				2A336C5F2789CD2C0063356A /* Asset */,
+				2ADFF20F2785A47C00F320A4 /* CDManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		2AE36C3527E7382C00AD8F27 /* Tambah */ = {
+			isa = PBXGroup;
+			children = (
+				2AE36C3627E7384200AD8F27 /* TambahData.swift */,
+				2AE36C3827E7439800AD8F27 /* TambahPemasukan.swift */,
+				2AE36C3A27E74DD000AD8F27 /* TambahPengeluaran.swift */,
+				2A9973AF280D541C00D957A8 /* TambahKategori.swift */,
+			);
+			path = Tambah;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A219792277AA70800E0E387 /* Jurnaloka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A2197A1277AA70A00E0E387 /* Build configuration list for PBXNativeTarget "Jurnaloka" */;
+			buildPhases = (
+				2A21978F277AA70800E0E387 /* Sources */,
+				2A219790277AA70800E0E387 /* Frameworks */,
+				2A219791277AA70800E0E387 /* Resources */,
+				2AC465E42816E4180093F63A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AC465E22816E4180093F63A /* PBXTargetDependency */,
+			);
+			name = Jurnaloka;
+			packageProductDependencies = (
+				2A391953281E1D7900FCFD78 /* SwiftUICharts */,
+			);
+			productName = Wallsmart;
+			productReference = 2A219793277AA70800E0E387 /* Jurnaloka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AC465D32816E4180093F63A /* JurnalokaNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AC465E72816E4180093F63A /* Build configuration list for PBXNativeTarget "JurnalokaNotification" */;
+			buildPhases = (
+				2AC465D02816E4180093F63A /* Sources */,
+				2AC465D12816E4180093F63A /* Frameworks */,
+				2AC465D22816E4180093F63A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JurnalokaNotification;
+			productName = WallsmartNotification;
+			productReference = 2AC465D42816E4180093F63A /* JurnalokaNotification.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A21978B277AA70800E0E387 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					2A219792277AA70800E0E387 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					2AC465D32816E4180093F63A = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 2A21978E277AA70800E0E387 /* Build configuration list for PBXProject "Jurnaloka" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A21978A277AA70800E0E387;
+			packageReferences = (
+				2A391952281E1D7900FCFD78 /* XCRemoteSwiftPackageReference "SwiftUICharts" */,
+			);
+			productRefGroup = 2A219794277AA70800E0E387 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A219792277AA70800E0E387 /* Jurnaloka */,
+				2AC465D32816E4180093F63A /* JurnalokaNotification */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A219791277AA70800E0E387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A21979E277AA70A00E0E387 /* Preview Assets.xcassets in Resources */,
+				2A21979B277AA70A00E0E387 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC465D22816E4180093F63A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC465DF2816E4180093F63A /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A21978F277AA70800E0E387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE36C3727E7384200AD8F27 /* TambahData.swift in Sources */,
+				2AC83A6F277DA91500822147 /* Jurnaloka.xcdatamodeld in Sources */,
+				2AE36C3927E7439800AD8F27 /* TambahPemasukan.swift in Sources */,
+				2AA2E4F027ABBC510055FB64 /* AktivitasPage.swift in Sources */,
+				2A33409A27B012FE00B4A664 /* UbahPengeluaran.swift in Sources */,
+				2A9973B0280D541C00D957A8 /* TambahKategori.swift in Sources */,
+				2A219797277AA70800E0E387 /* JurnalokaApp.swift in Sources */,
+				2AE36C3B27E74DD000AD8F27 /* TambahPengeluaran.swift in Sources */,
+				2A33409627B012D900B4A664 /* UbahPemasukan.swift in Sources */,
+				2A391951281E1B4300FCFD78 /* LaporanPage.swift in Sources */,
+				2A3340A227B0136E00B4A664 /* UbahKategori.swift in Sources */,
+				2ADFF2102785A47C00F320A4 /* CDManager.swift in Sources */,
+				2A33408F27B006E900B4A664 /* KategoriPage.swift in Sources */,
+				2A336C632789D4FB0063356A /* TabBar.swift in Sources */,
+				2A5A24F828198DBF0002E098 /* OnboardingPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC465D02816E4180093F63A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AC465DC2816E4180093F63A /* NotificationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AC465E22816E4180093F63A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AC465D32816E4180093F63A /* JurnalokaNotification */;
+			targetProxy = 2AC465E12816E4180093F63A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AC465DD2816E4180093F63A /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AC465DE2816E4180093F63A /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A21979F277AA70A00E0E387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2A2197A0277AA70A00E0E387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A2197A2277AA70A00E0E387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wallsmart/Preview Content\"";
+				DEVELOPMENT_TEAM = CG9485DCFP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wallsmart/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Jurnaloka;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wallsmart.Wallsmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A2197A3277AA70A00E0E387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wallsmart/Preview Content\"";
+				DEVELOPMENT_TEAM = CG9485DCFP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Wallsmart/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Jurnaloka;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wallsmart.Wallsmart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2AC465E52816E4180093F63A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CG9485DCFP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WallsmartNotification/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = JurnalokaNotification;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wallsmart.Wallsmart.WallsmartNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AC465E62816E4180093F63A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CG9485DCFP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WallsmartNotification/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = JurnalokaNotification;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Wallsmart.Wallsmart.WallsmartNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A21978E277AA70800E0E387 /* Build configuration list for PBXProject "Jurnaloka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A21979F277AA70A00E0E387 /* Debug */,
+				2A2197A0277AA70A00E0E387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A2197A1277AA70A00E0E387 /* Build configuration list for PBXNativeTarget "Jurnaloka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A2197A2277AA70A00E0E387 /* Debug */,
+				2A2197A3277AA70A00E0E387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AC465E72816E4180093F63A /* Build configuration list for PBXNativeTarget "JurnalokaNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AC465E52816E4180093F63A /* Debug */,
+				2AC465E62816E4180093F63A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2A391952281E1D7900FCFD78 /* XCRemoteSwiftPackageReference "SwiftUICharts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AfrazCodes/SwiftUICharts";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2A391953281E1D7900FCFD78 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2A391952281E1D7900FCFD78 /* XCRemoteSwiftPackageReference "SwiftUICharts" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		2AC83A6D277DA91500822147 /* Jurnaloka.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2AC83A6E277DA91500822147 /* Wallsmart.xcdatamodel */,
+			);
+			currentVersion = 2AC83A6E277DA91500822147 /* Wallsmart.xcdatamodel */;
+			path = Jurnaloka.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2A21978B277AA70800E0E387 /* Project object */;
+}
