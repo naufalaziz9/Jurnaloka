@@ -31,6 +31,8 @@ struct AktivitasPage: View {
     
     let formatter = DateFormatter()
     
+    // tes github berhasil apa gak
+    
     var body: some View {
 //        VStack{
         VStack(alignment: .leading){
