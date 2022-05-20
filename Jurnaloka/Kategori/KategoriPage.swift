@@ -154,7 +154,9 @@ struct KategoriPage: View {
 
 //                                let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 2592000, repeats: true)
                                 let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 86400, repeats: true)
+                                print("ini trigger: \(trigger)")
                                 let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+                                print("ini request: \(request)")
                                 UNUserNotificationCenter.current().add(request)
                             }
                         }

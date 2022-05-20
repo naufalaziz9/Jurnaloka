@@ -495,11 +495,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Wallsmart/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Jurnaloka/Preview\\ Content";
 				DEVELOPMENT_TEAM = CG9485DCFP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Wallsmart/Info.plist;
+				INFOPLIST_FILE = Jurnaloka/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Jurnaloka;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -513,7 +513,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Wallsmart.Wallsmart;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jurnaloka.Jurnaloka;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -529,11 +529,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Wallsmart/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "Jurnaloka/Preview\\ Content";
 				DEVELOPMENT_TEAM = CG9485DCFP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Wallsmart/Info.plist;
+				INFOPLIST_FILE = Jurnaloka/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Jurnaloka;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -547,7 +547,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Wallsmart.Wallsmart;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jurnaloka.Jurnaloka;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -562,7 +562,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CG9485DCFP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WallsmartNotification/Info.plist;
+				INFOPLIST_FILE = JurnalokaNotification/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = JurnalokaNotification;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -571,7 +571,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Wallsmart.Wallsmart.WallsmartNotification;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jurnaloka.Jurnaloka.JurnalokaNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -587,7 +587,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CG9485DCFP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = WallsmartNotification/Info.plist;
+				INFOPLIST_FILE = JurnalokaNotification/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = JurnalokaNotification;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -596,7 +596,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.Wallsmart.Wallsmart.WallsmartNotification;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jurnaloka.Jurnaloka.JurnalokaNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
