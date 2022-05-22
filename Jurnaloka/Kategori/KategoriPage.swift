@@ -162,6 +162,12 @@ struct KategoriPage: View {
                         }
                     }
                     
+                    Button("getDate print"){
+                        print("getDate: \(getDate())")
+                    }
+                    Text("Ayo catat pemasukan dan pengeluaranmu hari ini!")
+                        .foregroundColor(getDate() == "09.52" ? .green : .red)
+                    
                     Spacer()
                     
                     VStack(alignment: .leading, spacing: 20){
@@ -311,28 +317,14 @@ struct KategoriPage: View {
         }
         .navigationBarTitleDisplayMode(.inline)
         .navigationBarColor(backgroundColor: UIColor(named: "myGreen1"), titleColor: .white) // warna navigation bar bawaan ipon
-        
-        
-//        ZStack{
-//
-//
-//            ScrollView {
-//                    VStack(alignment: .leading, spacing: 8){
-//
-//                    }
-//                    .onAppear(perform: {
-//                        kategoriis = coreDM.getAllKategori()
-//                    })
-//                    .padding(.horizontal, 20)
-//            }
-//            .padding(.top, 160)
-//            .background(Color.white)
-//        }
-//        .background(Color("myGreen1"))
-//        .sheet(isPresented: $showingSheet) {
-//            TambahPengeluaran()
-//        }
-        
+    }
+    
+    func getDate()->String{
+        let time = Date()
+        let timeFormatter = DateFormatter()
+        timeFormatter.dateFormat = "HH:ss"
+        let stringDate = timeFormatter.string(from: time)
+        return stringDate
     }
     
     func getPricer(value: Float) -> String{
